@@ -1,0 +1,198 @@
+/*#region Fonts*/
+@font-face {
+  font-family: "Amazon";
+  src: url("../essets/fonts/Amazon-Ember-Medium.ttf");
+}
+/*#endregion Fonts*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Amazon", sans-serif;
+  font-weight: 400;
+  --dark: #131921;
+  --lighter-dark: #232f3e;
+  --a-yellow: #ffd814;
+  --a-orange: #ffa41c;
+  --a-tan: #febd69;
+  --text-grey: #565959;
+  --text-turquoise: #007185;
+  --text-orange: #c7511f;
+  --text-orange-2: #f08804;
+}
+
+/*#region Utils*/
+
+.fx {
+  display: flex;
+}
+.fdc {
+  flex-direction: column;
+}
+.jc-c {
+  justify-content: center;
+}
+.ai-c {
+  align-items: center;
+}
+.ai-fs {
+  align-items: flex-start;
+}
+/*#endregion Utils*/
+
+.top-nav {
+  list-style: none;
+  color: white;
+  background-color: var(--dark);
+}
+.top-nav ul {
+  list-style: none;
+}
+
+.top-nav li .top-li-title {
+  font-size: 12px;
+}
+.top-nav li .bottom-li-title,
+.top-nav .li-7 .right-cart {
+  font-size: 14px;
+  font-weight: 700;
+}
+.top-nav .li-1 {
+  padding: 5px;
+}
+.top-nav .li-1 .main-logo {
+  background: url("/essets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat -10px -51px;
+  width: 96px;
+  height: 29px;
+}
+
+.top-nav .li-3 {
+  justify-content: center;
+}
+.li-3 {
+  min-width: 100%;
+  height: 38px;
+}
+
+.li-3 input {
+  width: 86.5%;
+  border: none;
+}
+.li-3 .b-left {
+  width: 4.5%;
+  background: white;
+  color: black;
+  border-radius: 5px 0 0 5px;
+  border-right: 1px rgba(0, 0, 0, 0.287) solid;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.li-3 .li-3-button-right {
+  width: 4%;
+  background: var(--a-tan);
+  justify-content: center;
+
+  border-radius: 0px 5px 5px 0px;
+}
+.li-3 .li-3-button-right i {
+  color: black;
+  align-self: center;
+}
+.top-nav .li-4 span {
+  background: url("/essets/images/flags.png") no-repeat 0 -130px;
+  width: 24px;
+  height: 18px;
+  align-self: center;
+}
+.top-nav i {
+  align-self: center;
+  padding: 0 2px;
+  color: #a7acb2;
+}
+
+.top-nav .li-7 .left-cart {
+  background: url("/essets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat -218px -337px;
+  width: 41px;
+  height: 28px;
+  position: relative;
+}
+.top-nav .li-7 .left-cart .cart-num {
+  position: absolute;
+  left: 48%;
+  top: -10%;
+  color: var(--text-orange-2);
+}
+
+.top-nav .li-7 .right-cart {
+  align-self: center;
+}
+.ul-1 {
+  /* border: solid 2px yellow; */
+  width: 15%;
+  min-width: 260px;
+  justify-content: space-around;
+}
+.ul-2 {
+  /* border: solid 2px yellow; */
+  width: 65%;
+  justify-content: center;
+}
+.ul-3 {
+  /* border: solid 2px yellow; */
+  width: 20%;
+  min-width: 365px;
+  justify-content: space-around;
+}
+.ul-1,
+.ul-2,
+.ul-3 {
+  padding: 10px 0;
+}
+.li-1,
+.li-2,
+.li-3,
+.li-4,
+.li-5,
+.li-6,
+.li-7 {
+  border: solid 1px rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.li-1:hover,
+.li-2:hover,
+.li-4:hover,
+.li-5:hover,
+.li-6:hover,
+.li-7:hover {
+  border: solid 1px rgb(255, 255, 255);
+}
+
+.bottom-nav {
+  background-color: var(--lighter-dark);
+  justify-content: space-between;
+  /* border: solid 2px red; */
+  padding: 0 10px;
+}
+.bottom-nav ul {
+  color: white;
+  list-style: none;
+  font-size: 14px;
+  /* border: solid 2px red; */
+  padding: 5px 0;
+}
+
+.bottom-nav ul li {
+  padding: 5px 10px;
+  border: solid 1px rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.bottom-nav ul li:hover {
+  border: solid 1px rgb(255, 255, 255);
+}
+.bot-ul-2 li {
+  font-weight: 700;
+}
