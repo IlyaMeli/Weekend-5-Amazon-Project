@@ -23,6 +23,25 @@
 }
 
 /*#region Utils*/
+.bold{
+  font-weight: 700;
+}
+.pt-10{
+  padding-top: 10px
+}
+.pb-10{
+  padding-bottom: 10px;
+}
+.pt-5{
+  padding-top: 5px
+}
+.pb-5{
+  padding-bottom: 5px;
+}
+.divider{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  margin-right:10px
+}
 
 .fx {
   display: flex;
@@ -209,7 +228,7 @@
   max-width: 1500px;
   border: solid 1px red;
   /* have to remove late  */
-  height: 100vh;
+  height: 80vh;
   /*  */
 }
 .hero-container .orange-banner {
@@ -237,14 +256,7 @@
 .content-1 {
 }
 
-.x img :hover ~ .content-2 {
-  background-size: 20%;
-  background: url("../essets/images/hero-2.jpg") no-repeat center center;
-}
-.y:hover ~ .content-2 {
-  background-size: 20%;
-  background: url("../essets/images/hero-2.jpg") no-repeat center center;
-}
+
 .content-2 {
   width: 40%;
   background: url("../essets/images/hero.jpg") no-repeat center center;
@@ -252,11 +264,13 @@
   background-position-y: top;
 }
 .content-3 {
-  width: 28.5%;
-  border: solid 1px rgb(25, 0, 255);
+  width: 37%;
+  /* border: solid 1px rgb(25, 0, 255); */
+  font-size: 14px;
+  padding-left: 30px;
 }
 .content-4 {
-  width: 28.5%;
+  /* width: 28.5%; */
   border: solid 1px rgb(255, 0, 0);
 }
 /* .content-1 div .small-pics {
@@ -265,6 +279,66 @@
   border: solid 1px rgba(0, 0, 0, 0.376);
   margin-bottom: 10px;
 } */
-.hero-left-wrap {
-  width: 100%;
+
+
+.content-3 h1{
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+.content-3 .brand{
+  color: var(  --text-turquoise);
+
+}
+
+
+.title-stars{
+  color: var(  --text-turquoise);
+
+}
+.title-stars div{
+  background: url('../essets/images/stars-1.png') no-repeat -175px -369px;
+	width: 79px;
+	height: 15px;
+  margin-right: 20px;
+  
+}
+.price-tag{
+  padding-right: 5px;
+}
+.price-wrapper .price-2{
+  color:#b12704;
+  font-size: 18px;
+}
+.price-wrapper .free-ship{
+  font-weight: 700;
+}
+
+.brand-list-wrapper ul {
+  list-style: none;
+}
+.brand-list-wrapper ul li{
+padding-bottom: 10px;
+padding-right: 10px;
+}
+.brand-list-wrapper  .brand-1 li{
+  font-weight: 700;
+
+}
+.description-1{
+  color:rgba(0, 0, 0, 0.705);
+}
+.details{
+  color:var(--text-turquoise)
+}
+.about-title{
+  font-size: 16px;
+}
+.brand-3{
+  padding-left:20px;
+}
+.brand-3 li{
+  padding-bottom: 5px;
+}
+.new{
+  padding-top:20px;
 }
