@@ -6,6 +6,7 @@
 /*#endregion Fonts*/
 
 * {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -23,6 +24,12 @@
 }
 
 /*#region Utils*/
+.cp{
+  cursor: pointer;
+}
+.cd{
+  cursor: default;
+}
 .turquoise{
   color: var(--text-turquoise)
 }
@@ -231,7 +238,7 @@
   max-width: 1500px;
   /* border: solid 1px red; */
   /* have to remove late  */
-  height: 80vh;
+  /* height: 80vh; */
 
   /*  */
 }
@@ -266,7 +273,7 @@
 
 .content-2 {
   width: 45%;
-  background: url("../essets/images/hero.jpg") no-repeat center center;
+  background: url("../essets/images/hero.jpg") no-repeat center center ;
   background-size: 100%;
   background-position-y: top;
 }
@@ -401,4 +408,124 @@ padding-right: 10px;
   width:82.6%;
   bottom:0;
   left:0;
+}
+.bottom-b-1 {
+  margin-top: 10px;;
+border: 1px rgba(0, 0, 0, 0.3) solid;
+border-radius:5px;
+background: #f1f2f5;
+}
+.bottom-b-1-r{
+  width:85%;
+  padding: 5px 11px;
+
+  
+}
+.bottom-b-1-l{
+  margin-left: 10px;;
+  border-left:1px rgba(0, 0, 0, 0.3) solid;
+  width: 15%;
+  display: flex;justify-content:center;
+  align-items: center;
+}
+.bottom-b-1-l-2{
+  margin-left: 10px;;
+  border-left:none;
+  width: 15%;
+  display: flex;justify-content:center;
+  align-items: center;
+}
+
+.carousel{
+  margin-top:30px;
+  width:100%;
+  border-top:solid 1px rgba(0, 0, 0, 0.13);
+  padding-top:20px;
+  padding-bottom:50px;
+  /* border: solid 2px blue; */
+  /* height: 400px; */
+}
+.carousel-content{
+  min-width: 160px;
+  max-width:84%;
+  gap:20px;
+  /* overflow:scroll; */
+  overflow-x:scroll;
+  /* overflow-y:hidden; */
+
+}
+.carousel-content::-webkit-scrollbar {
+  display: none;
+}
+.left-c{
+  /* border:solid 2px green; */
+  width:8%;
+  display:flex;
+  align-items: center
+}
+.left-c i{
+  border:solid 1px rgba(0, 0, 0, 0.363);
+  padding:8px 10px;
+  border-radius: 4px
+}
+.right-c{
+  /* border:solid 2px green; */
+  width:8%;
+  display:flex;
+  align-items: center;
+  justify-content:flex-end
+}
+.right-c i{
+  border:solid 1px rgba(0, 0, 0, 0.363);
+  padding:8px 10px;
+  border-radius: 4px
+
+}
+
+.carousel-card{
+  min-width:160px;
+  max-width: 160px;
+  font-size:14px;
+  overflow: hidden;
+}
+.carousel-card img{
+  min-height: 160px;
+  max-height: 160px;
+}
+.carousel-card .card-info{
+  color: var(--text-turquoise);
+}
+.carousel-card .stars{
+  background: url('/essets/images/stars-1.png') no-repeat -175px -369px;
+  width: 79px;
+  min-height: 15px;
+  margin-top:5px;
+}
+.carousel-card .day{
+font-weight: 700;
+}
+.carousel-card .c-price{
+  padding-top:5px;
+  font-size:17px;
+}
+.carousel-card .get-it{
+  font-size: 12px;
+  padding-top:5px
+}
+.carousel-card .d-day{
+  font-weight: 700;
+  font-size:12px;
+  padding-top:5px
+
+}
+.carousel-card .d-day{
+  font-weight: 700;
+  font-size:12px;
+  padding-top:5px
+
+}
+.carousel-card .b-info{
+  font-size:12px;
+  padding-top:5px
+
 }
