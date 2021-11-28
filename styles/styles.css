@@ -517,23 +517,109 @@
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
   .main-wrapper {
     display: none;
   }
   .phone-wrapper {
-    display: block;
+    display: flex;
   }
-  .phone-nav-top {
-    background: var(--dark);
+  .phone-nav-top-1 {
+    background: var(--lighter-dark);
+  }
+  .phone-nav-top-2 {
+    justify-content: center;
+    background: var(--lighter-dark);
+    padding-bottom: 2px;
+  }
+  .phone-nav-top-2 input {
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px 0px;
+  }
+  .phone-nav-top-3 {
+    font-size: 13px;
+    align-items: center;
+    padding: 10px;
+    background: #37475a;
+    color: white;
   }
   .phone-nav i {
-    color: green;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
   }
   .main-logo2 {
     background: url("/essets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
-      no-repeat -10px -51px;
-    width: 96px;
-    height: 29px;
+      no-repeat -10px -90px;
+    width: 76px;
+    height: 23px;
+  }
+  .logo-2-wrapper {
+    padding: 10px 10px;
+  }
+
+  .deliver-icon {
+    background: url("/essets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+      no-repeat -71px -379px;
+    width: 15px;
+    height: 17px;
+  }
+  .orange-wrap {
+    width: 100%;
+    /* border: solid 2px red; */
+    justify-content: center;
+  }
+  .orange-banner {
+    height: 70%;
+    width: 70%;
+  }
+  .brand {
+    font-size: 13px;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .stars-title {
+    font-size: 11px;
+    padding-top: 2px;
+  }
+  .stars-sprite {
+    background: url("/essets/images/stars-1.png") no-repeat -175px -369px;
+    width: 79px;
+    height: 15px;
+  }
+  .img-wrapper {
+    padding-top: 30px;
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 350px;
+    height: 50vh;
+    background: url("../essets/images/hero.jpg") no-repeat center center;
+    background-size: 100%;
+    background-position-y: top;
+  }
+  .price {
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  .nine {
+    font-size: 32px;
+  }
+  .paragraph {
+    line-height: 20px;
+    color: #565959;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .shipment {
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size: 15px;
+  }
+  .deliver {
+    padding-left: 10px;
+    font-size: 15px;
   }
 }

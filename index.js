@@ -245,7 +245,7 @@ smallPic2.addEventListener("mouseover", () => {
   backPic.style.backgroundSize = `70%`;
 });
 
-let addDinamicly = (cardsArray) => {
+let addDynamically = (cardsArray) => {
   for (let i = 0; cardsArray.length; i++) {
     cardsContainer.innerHTML += `<div class="carousel-card fx fdc">
 <img class="cp" src=${cardsArray[i].img} alt=${cardsArray[i].alt} />
@@ -259,4 +259,4 @@ let addDinamicly = (cardsArray) => {
   }
 };
 
-addDinamicly(cards);
+addDynamically(cards);
