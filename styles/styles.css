@@ -533,9 +533,9 @@
     padding-bottom: 2px;
   }
   .phone-nav-top-2 input {
-    width: 90%;
+    width: 85%;
     border-radius: 5px;
-    padding: 10px 0px;
+    /* height: 100%; */
   }
   .phone-nav-top-3 {
     font-size: 13px;
@@ -546,7 +546,7 @@
   }
   .phone-nav i {
     padding: 10px 10px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
   }
   .main-logo2 {
     background: url("/essets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
@@ -618,8 +618,18 @@
     padding-top: 30px;
     font-size: 15px;
   }
-  .deliver {
+  .delivery {
     padding-left: 10px;
     font-size: 15px;
+  }
+  .delivery i {
+    color: black;
+  }
+  .seach-bar {
+    background-color: var(--a-tan);
+    border-radius: 8px;
+  }
+  .seach-bar i {
+    color: black;
   }
 }
